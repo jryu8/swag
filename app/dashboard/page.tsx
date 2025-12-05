@@ -152,15 +152,23 @@ export default async function DashboardPage() {
             </span>
           </Link>
 
-          <Link
-  href="/planner"
-  className="rounded-xl border bg-white p-4 shadow-sm hover:shadow-md transition"
->
-  <h2 className="font-semibold mb-1">Planner</h2>
-  <p className="text-sm text-zinc-600">
-    Plan outfits on a calendar view.
-  </p>
-</Link>
+         <Link
+            href="/planner"
+            className="bg-white rounded-3xl shadow-sm px-5 py-4 flex flex-col justify-between hover:shadow-md transition-shadow"
+          >
+            <div>
+              <p className="text-[11px] text-[#8f7a66] mb-1">Calendar</p>
+              <h2 className="text-md font-semibold text-[#1f130a] mb-1">
+                Planner
+              </h2>
+              <p className="text-[11px] text-[#8f7a66]">
+                Plan ahead of time with the planner.
+              </p>
+            </div>
+            <span className="mt-3 text-[11px] text-[#b46a2a] underline">
+              View Calendar →
+            </span>
+          </Link>
 
           <Link
             href="/recommendations"
