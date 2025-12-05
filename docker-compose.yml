@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: swag-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: testingserver1!
+      POSTGRES_DB: swagdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - swag-db-data:/var/lib/postgresql/data
+
+volumes:
+  swag-db-data:

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth default page rhythm */
+:root {
+  --container: 72rem;
+}
+.prose-compact p { margin: 0.35rem 0; }
+
+/* Focus ring accessibility */
+*:focus-visible {
+  outline: 2px solid rgb(59 130 246);
+  outline-offset: 2px;
+}
