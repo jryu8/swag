@@ -173,7 +173,7 @@ export default function ClothingPage() {
                 Your Virtual Closet
               </h1>
               <p className="mt-3 max-w-xl text-zinc-600">
-                Save pieces, tag them, and build outfits you’ll actually wear.
+                Save pieces, tag them, and start building outfits you’ll actually wear.
               </p>
               <div className="mt-7 flex items-center gap-3">
                 <a href="#collections" className="inline-flex items-center rounded-full bg-[#9b6b3d] px-6 py-3 text-sm font-medium text-white hover:brightness-95">
